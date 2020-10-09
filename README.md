@@ -5,5 +5,6 @@
 - Customers can set up "deposit plan" on either a 1-Time and/or monthly basis to specify how funds are allocated amongs portfolios.
 
 # Task
+Build a method that:
 - Input consists of a list of both 1-time and monthly deposit plans, as well as a list of fund deposits for a particular customer.
 - Output allocation of funds amongst customer's portfolios.
