@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -116,32 +115,4 @@ func AllocateFunds(depositPlans []DepositPlan, funds []Fund) []Portfolio {
 	}
 
 	return portfolios
-}
-
-func main() {
-	/* Input */
-	// 1 - Time deposit plan
-	dp1 := DepositPlan{
-		1, []Portfolio{
-			//{33}, {33}, {33},
-			{10}, {10},
-		},
-	}
-	// Monthly deposit plan
-	dp2 := DepositPlan{
-		2, []Portfolio{
-			{20}, {30},
-			//{33}, {33}, {33},
-		},
-	}
-	depositPlans := []DepositPlan{dp1, dp2}
-
-	funds := []Fund{
-		{100}, {50}, {70},
-	}
-
-	/* Output */
-	// Allocate the funds on the different portfolios
-	portfolios := AllocateFunds(depositPlans, funds)
-	fmt.Println(portfolios)
 }
