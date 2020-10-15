@@ -116,3 +116,7 @@ func AllocateFunds(depositPlans []DepositPlan, funds []Fund) []Portfolio {
 
 	return portfolios
 }
+
+func main() {
+
+}
