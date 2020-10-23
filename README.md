@@ -12,12 +12,12 @@
 Build a method that receives a list of both 1-time and monthly deposit plans as well as a list of funds deposits for a particular customer and allocates the funds amongst the customer's portfolios.
 
 ## Installation
-Project requirements
---------------------
+### Project requirements
+
 * GO: ^1.13
 
-How to run it
--------------
+### How to run it
+
 1. Clone the repo:
 ```
 $ git clone https://github.com/daluj/fundallocation.git
