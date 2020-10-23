@@ -13,11 +13,11 @@ Build a method that receives a list of both 1-time and monthly deposit plans as 
 
 ## Installation
 Project requirements
-====================
+--------------------
 * GO: ^1.13
 
 How to run it
-=============
+-------------
 1. Clone the repo:
 ```
 $ git clone https://github.com/daluj/fundallocation.git
